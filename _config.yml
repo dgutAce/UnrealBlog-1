@@ -1,2 +1,5 @@
-encoding: utf-8
-baseurl: /UnrealBlog
+name: Unreal Blog
+description: Blog About A RoboMaster Team
+
+markdown: redcarpet
+exclude: ["node_modules", "gulpfile.js", "package.json"]
