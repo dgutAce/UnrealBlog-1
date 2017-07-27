@@ -5,3 +5,5 @@ markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
 baseurl: /UnrealBlog
+
+encoding: utf-8
