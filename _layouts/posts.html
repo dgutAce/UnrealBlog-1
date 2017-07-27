@@ -1,4 +1,7 @@
---- layout: default --- {% include header_small.html %}
+--- 
+layout: default 
+---
+{% include header_small.html %}
 
 
 
@@ -11,7 +14,10 @@
     </a>
 </div>
 <div class="post-header">
-    <p class="post-meta">{{ post.date | date: "%B %-d, %Y — %H:%M" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+    <p class="post-meta">
+    {{ post.date | date: "%B %-d, %Y — %H:%M" }}
+    {% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}
+    </p>
 </div>
 
 {% endfor %}

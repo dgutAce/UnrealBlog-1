@@ -1,4 +1,9 @@
---- layout: default --- {% include header.html %} {% include about.html %} {% include history.html %}
+--- 
+layout: default 
+--- 
+{% include header.html %} 
+{% include about.html %} 
+{% include history.html %}
 
 <h2 id="Blog"> Blog </h2>
 <hr class="bar-blog"> </hr>
@@ -10,7 +15,9 @@
     </a>
 </div>
 <div class="post-header date">
-    <p class="post-meta">{{ post.date | date: "%B %-d, %Y — %H:%M" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+    <p class="post-meta">{{ post.date | date: "%B %-d, %Y — %H:%M" }}
+    {% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}
+    </p>
 </div>
 
 {% endfor %}
@@ -20,4 +27,5 @@
 
 
 
-{% include contact.html %} {% include message.html %}
+{% include contact.html %} 
+{% include message.html %}
