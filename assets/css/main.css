@@ -424,6 +424,13 @@ th {
 .icon-git-square:before {
   content: "\f1d2"; }
 
+.icon-wechat:before {
+	content: "\f175";
+}
+.icon-weibo:before {
+	content: "\f176";
+}
+
 @font-face {
   font-family: "Flaticon";
   src: url("0-tools/flaticon.eot");
@@ -494,6 +501,14 @@ th {
 
 .flaticon-youtube31:before {
   content: "\e012"; }
+
+.flaticon-wechat:before{
+    content: "\e013";
+}
+
+.flaticon-weibo:before{
+    content: "\e014";
+}
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
