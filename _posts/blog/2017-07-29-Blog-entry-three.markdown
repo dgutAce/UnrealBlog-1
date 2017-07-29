@@ -12,12 +12,12 @@ categories: blog
 包括salary company time job_name address字段
 ```
 
-目的
----------
+###目的
+
 本次数据整理的小目标是将薪资数据拿出来单独处理为统一的格式, 以便后续的数据统计分析和可视化操作
 
-思路
----------
+###思路
+
 先来看看数据有多丑
 
 ![薪资原始数据示例](http://upload-images.jianshu.io/upload_images/5530017-ce241091deb0f21b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -32,8 +32,7 @@ categories: blog
 
 根据数据格式, 可以把薪资拆成两行, 以 - 作为分割点, 然后对数据分情况整理, 根据拆分后数据位置得到底薪和薪资上限
 
-代码
-----------
+###代码
 
 1. 获取底薪
 >这里需要分三种情况(实际是四种, 不过XX千/年这种数据并没有出现)
@@ -131,7 +130,7 @@ df_clean['avgSalary'] = df_clean.apply(lambda x : (x.bottomSalary + x.topSalary)
 
 ----------------------
 
-######参考文献
+#####参考文献
 ```
 知乎——用pandas进行数据分析实战
 https://zhuanlan.zhihu.com/p/27784143
