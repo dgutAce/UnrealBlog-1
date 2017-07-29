@@ -1,7 +1,6 @@
 name: Unreal Blog
 description: Blog About A RoboMaster Team
 
-markdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 
 baseurl: /UnrealBlog
