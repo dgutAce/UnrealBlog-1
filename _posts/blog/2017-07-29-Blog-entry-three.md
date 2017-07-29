@@ -73,7 +73,7 @@ def cut_word(word):
 考虑到还有0.X这种数字, 使用类似```bottomSalary = word[:(postion)] + '0.0'``这样的代码会出现以下情况
 ![错误示范](http://upload-images.jianshu.io/upload_images/5530017-143b8bd36e4b5c1b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 函数代码如下
-```
+{% highlight python %}
 def cut_word(word, method):
     if method == 'bottom':
         if(word.find('万') == -1):
@@ -108,7 +108,7 @@ def cut_word(word, method):
                 topSalary = word[(postion+1):(length-7)]
                 topSalary = str(int(topSalary) / 1.2)
         return topSalary
-```
+{% endhighlight %}
 >函数写完验证下结果
 这里用到pandas模块的apply方法, 对某一行数据应用自定义函数
 ```python
