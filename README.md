@@ -1,12 +1,21 @@
+Unreal Blog
 =============================
-Sleek Blog
-=============================
 
-[Live Website](http://gearoidoconnor.ie)
+[Website](https://fesonx.github.io/UnrealBlog/)
+
+About
+----------
+
+This blog is about a `RoboMaster` team from `DGUT` since 2016
+This bolg's Theme is orignal designed By `Gearoid O'Connor`
+This blog is maintenanced by FesonX
 
 
-A blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+This blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
+
+To Build Your Own Blog
+----------
 
 ## System Preparation
 
@@ -19,7 +28,8 @@ To use this project, you'll need the following things installed on your machine.
 ## Local Installation
 
 1. Clone this repo, or download it into a directory of your choice.
-2. Inside the directory, run `npm install`.
+2. Change directory into `UnrealBlog`, use `git checkout gh-pages` to switch branches.
+3. Inside the directory, run `npm install`.
 
 ## Usage
 
